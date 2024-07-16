@@ -1,0 +1,159 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links li a:hover {
+    text-decoration: underline;
+}
+
+/* Doctor banner styles */
+#doctor-info {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.doctor-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.doctor-banner img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.doctor-info-text {
+    text-align: left;
+}
+
+.doctor-info-text h2 {
+    margin-bottom: 10px;
+}
+
+.doctor-info-text p {
+    margin-bottom: 20px;
+}
+
+.doctor-info-text a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+}
+
+.doctor-info-text a:hover {
+    background-color: #0056b3;
+}
+
+/* Slots section styles */
+#slots {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.slot-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.slot-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-basis: calc(25% - 40px); /* Adjust according to your design */
+    text-align: left;
+}
+
+.slot-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.slot-item .slot-image {
+    margin-bottom: 10px;
+}
+
+.slot-item .slot-image img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.slot-item h3 {
+    margin-bottom: 10px;
+}
+
+.slot-item p {
+    margin-bottom: 15px;
+}
+
+.slot-item a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+}
+
+.slot-item a:hover {
+    background-color: #0056b3;
+}
+
+/* Footer styles */
+footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
